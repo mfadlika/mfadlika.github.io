@@ -1,0 +1,35 @@
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+
+document.getElementById("demo").innerHTML = 5 + 6;
+
+document.write(5 + 6);
+
+window.alert(5 + 6);  //to show alert on pop up
+
+alert(5 + 6);  //to show alert on pop up
+
+console.log(5 + 6);
+
+window.print()  //to print
+
+var person = {
+    name: "John",
+    lastName: "Gee",
+    fullname: function() {
+      return this.name + " " + this.lastName;
+    }
+}
+console.log(person.fullname())
+
+<button onclick="this.innerHTML = Date()">The time is?</button>
+
+<button onclick="displayDate()">The time is?</button>
+
+Event	Description
+onchange	An HTML element has been changed
+onclick	The user clicks an HTML element
+onmouseover	The user moves the mouse over an HTML element
+onmouseout	The user moves the mouse away from an HTML element
+onkeydown	The user pushes a keyboard key
+onload	The browser has finished loading the page

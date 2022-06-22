@@ -1,0 +1,24 @@
+/* Index */
+
+.image-logo {
+    border-radius: 5%;
+}
+
+.image-home {
+    padding: 15px 0px 15px 0px;
+}
+
+/* Menu */
+.menu {
+    padding: 15px;
+}
+
+.text-menu {
+    text-align: center;
+}
+
+.image-menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
